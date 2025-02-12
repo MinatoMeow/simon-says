@@ -82,3 +82,31 @@ body {
   background-color: green;
   background-size: cover;
 }
+
+#footer {
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+  flex: 1;
+  margin: 1rem;
+  padding-top: 2rem;
+}
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none; /* no underline */
+}
+
+#github-logo-container {
+  width: 50px;
+  height: 25px;
+}
+.col-1 #github-logo {
+  max-width: 10%;
+  min-width: 20px;
+}
+#name {
+  margin-left: 1rem;
+}
