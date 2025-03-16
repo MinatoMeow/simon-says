@@ -71,6 +71,7 @@ function checkAnswer(currentLevel) {
   } else if (gamePattern.length < 1) {
   } else {
     var wrong = new Audio(`sounds/wrong.mp3`);
+    audio.volume = 0.1;
 
     wrong.play();
     $('body').addClass('game-over');
